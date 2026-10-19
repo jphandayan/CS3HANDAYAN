@@ -1,2 +1,2 @@
-# CS3HANDAYAN
-13
+Jathniel Chevy P. Handayan
+9 - Helium
