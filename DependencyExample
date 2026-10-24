@@ -1,0 +1,20 @@
+
+class Document:
+    def __init__(self, text):
+        self.text = text
+
+
+class Printer:
+    def print_document(self, document):
+        print(f"Printing: {document.text}")
+
+
+def main():
+    document = Document("Hello, World!")
+    printer = Printer()
+
+    printer.print_document(document)
+
+
+if __name__ == "__main__":
+    main()
