@@ -1,0 +1,24 @@
+
+class Player:
+    def __init__(self, name):
+        self.name = name
+
+
+class Team:
+    def __init__(self, team_name, player):
+        self.team_name = team_name
+        self.player = player
+
+    def show_player(self):
+        print(f"{self.player.name} plays for {self.team_name}")
+
+
+def main():
+    player = Player("Jordan")
+    team = Team("Eagles", player)
+
+    team.show_player()
+
+
+if __name__ == "__main__":
+    main()
