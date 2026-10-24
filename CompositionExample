@@ -1,0 +1,20 @@
+class Room:
+    def __init__(self, name):
+        self.name = name
+
+
+class House:
+    def __init__(self):
+        self.room = Room("Living Room")
+
+    def show_room(self):
+        print(f"House contains a {self.room.name}")
+
+
+def main():
+    house = House()
+    house.show_room()
+
+
+if __name__ == "__main__":
+    main()
